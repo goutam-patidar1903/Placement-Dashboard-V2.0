@@ -13,15 +13,15 @@ const app=express();
 
 //middlewares
 
-//app.use(cors());
-
 app.use(cors(
     {
-        origin:'https://placement-dashboard-v2-0-fe.vercel.app/', 
+        origin:"https://placement-dashboard-v2-0.vercel.app", 
         method:["GET","POST","DELETE","PATCH"],
         credentials:true
     }
 ))
+
+
 
 app.use(express.json());
 
