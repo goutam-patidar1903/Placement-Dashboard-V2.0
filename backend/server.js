@@ -11,9 +11,17 @@ const companyRoutes = require('./routes/companies')
 //express app
 const app=express();
 
-//middlewarw
+//middlewares
 
-app.use(cors());
+//app.use(cors());
+
+app.use(cors(
+    {
+        origin:'*', // allow accept request from any origin
+        method:["GET","POST","DELETE","PATCH"],
+        credentials:true
+    }
+))
 
 app.use(express.json());
 
