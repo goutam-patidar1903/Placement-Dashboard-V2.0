@@ -1,0 +1,33 @@
+/*We can add custom css classes here */
+
+/* color theme
+background : #1F2833
+font : #66FCF1
+*/
+
+.bg-whole{
+  background-color: #1F2833;
+  padding: 40px;
+}
+
+.bg-primary{
+  background-color: #66FCF1;
+}
+
+.text-primary{
+  color: #66FCF1;
+  font-family: Playfair Display ;
+}
+
+.text-secondary{
+  color : #F8F6F0;
+
+}
+
+.border-primary{
+  border: 2px solid #66FCF1;
+}
+
+.border-secondary{
+  border: 2px solid #F8F6F0;
+}
